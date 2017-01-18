@@ -1,0 +1,7 @@
+.row {
+    margin-top: 15px;
+}
+.row .col-xs-2 button {
+    width: 100%;
+    height: 100%;
+}
