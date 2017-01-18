@@ -1,5 +1,11 @@
 $(document).ready(function() {
+    
+    console.log("JQuery Initialized");
     $(window).resize(function(){
-	$('.col-xs-2').height($(this).width(););
-    });
+	console.log("Resizing Screen");
+	$('.row .col-xs-2').each(function() {
+	    console.log("Resizing Object with width",$(this).width());
+            $(this).height($(this).width());
+	});
+    }).resize();
 });
