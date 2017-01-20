@@ -8,7 +8,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./stylesheet.css">
+  <script type="text/javascript" language="javascript" src="words.json"></script> 
   <script type='text/javascript' src='effects.js'></script>
+  <!--<script type='text/javascript' src='words.js'></script>-->
 </head>
 <body style="min-width: 400px;">
   
@@ -20,79 +22,87 @@
 
 
 <!-- Body -->
-<div class="container">
-  <div class="row">
-    <div class="col-xs-2 col-xs-offset-1"><button type="button" class="btn btn-default">1</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">2</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">3</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">4</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">5</button></div>
+<div class="container" style="max-width: 1000px;">
+  <div class="row" id="word-button-0">
+    <!--<div class="col-xs-2 col-xs-offset-1"><button type="button" class="btn btn-default">1<p>Word 1</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">2<p>Word 2</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">3<p>Word 3</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">4<p>Word 4</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">5<p>Word 5</p></button></div>-->
   </div>
-  <div class="row">
-    <div class="col-xs-2 col-xs-offset-1"><button type="button" class="btn btn-default">6</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">7</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">8</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">9</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">10</button></div>
+  <div class="row" id="word-button-1">
+    <!--<div class="col-xs-2 col-xs-offset-1"><button type="button" class="btn btn-default">6<p>Word 6</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">7<p>Word 7</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">8<p>Word 8</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">9<p>Word 9</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">10<p>Word 10</p></button></div>-->
   </div>
-  <div class="row">
-    <div class="col-xs-2 col-xs-offset-1"><button type="button" class="btn btn-default">11</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">12</button></div>
+  <div class="row" id="word-button-2">
+    <!--<div class="col-xs-2 col-xs-offset-1"><button type="button" class="btn btn-default">11<p>Word 11</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">12<p>Word 12</p></button></div>
     <div class="col-xs-2"><div style="position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);">Free!</div></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">14</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">15</button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">14<p>Word 14</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">15<p>Word 15</p></button></div>-->
   </div>
-  <div class="row">
-    <div class="col-xs-2 col-xs-offset-1"><button type="button" class="btn btn-default">16</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">17</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">18</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">19</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">20</button></div>
+  <div class="row" id="word-button-3">
+    <!--<div class="col-xs-2 col-xs-offset-1"><button type="button" class="btn btn-default">16<p>Word 16</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">17<p>Word 17</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">18<p>Word 18</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">19<p>Word 19</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default">20<p>Word 20</p></button></div>-->
   </div>
-  <div class="row">
-    <div class="col-xs-2 col-xs-offset-1"><button type="button" class="btn btn-default" style="width: 100%; height: 100%;">21</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default" >22</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default" >23</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default" >24</button></div>
-    <div class="col-xs-2"><button type="button" class="btn btn-default">25</button></div>
+  <div class="row" id="word-button-4">
+    <!--<div class="col-xs-2 col-xs-offset-1"><button type="button" class="btn btn-default">21<p>Word 21</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default" >22<p>Word 22</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default" >23<p>Word 23</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default" >24<p>Word 24</p></button></div>
+    <div class="col-xs-2"><button type="button" class="btn btn-default" >25<p>Word 25</p></button></div>-->
   </div>
   <div class="row">
     <div class="col-xs-12 panel panel-footer">
       <div class="row">
+	<div class="col-md-4 col-md-offset-4">
+	     <h1 style="margin-bottom: 15px; text-align: center;"> Words </h1>
+	</div>
+      </div>
+      <div class="row">
 	<div class="col-md-4">
-	  <ol style="margin-bottom: 0">
-	    <li>Word 1</li>
+	  <!-- Contains 1-8 inclusive values =8 values. -->
+	  <ol id="word-list-0">
+	    <!--<li>Word 1</li>
 	    <li>Word 2</li>
 	    <li>Word 3</li>
 	    <li>Word 4</li>
 	    <li>Word 5</li>
 	    <li>Word 6</li>
 	    <li>Word 7</li>
-	    <li>Word 8</li>
+	    <li>Word 8</li>-->
 	  </ol>
 	</div>
 	<div class="col-md-4">
-	  <ol start="9" style="margin-bottom: 0">
-	    <li>Word 9</li>
+	  <!-- Contains 9-17 inclusive values =8 values. -->
+	  <ol start="9" id="word-list-1">
+	    <!--<li>Word 9</li>
 	    <li>Word 10</li>
 	    <li>Word 11</li>
 	    <li>Word 12</li>
 	    <li>Word 14</li>
 	    <li>Word 15</li>
 	    <li>Word 16</li>
-	    <li>Word 17</li>
+	    <li>Word 17</li>-->
 	  </ol>
 	</div>
 	<div class="col-md-4">
-	  <ol start="18" style="margin-bottom: 0">
-	    <li>Word 18</li>
+	  <!-- Contains 18-25 inclusive values =8 values. -->
+	  <ol start="18" id="word-list-2">
+	    <!--<li>Word 18</li>
 	    <li>Word 19</li>
 	    <li>Word 20</li>
 	    <li>Word 21</li>
 	    <li>Word 22</li>
 	    <li>Word 23</li>
 	    <li>Word 24</li>
-	    <li>Word 25</li>
+	    <li>Word 25</li>-->
 	  </ol>
 	</div>
       </div>
