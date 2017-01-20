@@ -1,3 +1,6 @@
+.pushed {
+    background-color: rgb(221,221,221);
+}
 .row {
     margin-top: 15px;
 }
@@ -11,4 +14,12 @@ button p {
 }
 ol {
     margin-bottom: 0;
+}
+.row .col-xs-10 {
+    display: block;
+    text-align: center;
+}
+.row .col-xs-10 button {
+    width:75%;
+    margin: 20px;
 }

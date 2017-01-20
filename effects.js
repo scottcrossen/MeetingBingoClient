@@ -8,7 +8,7 @@ $(document).ready(function() {
     
     console.log("Loading words:");
     for(var i = 0; i < words.length; i++) {
-	console.log(words[i]);
+	console.log("\t"+words[i]);
 	var list_element="<li>"+words[i]+"</li>";
 	if(i==12) list_element="<li value=\"14\">"+words[i]+"</li>";
 	var button_element="<div class=\"col-xs-2 ";
@@ -34,5 +34,12 @@ $(document).ready(function() {
 	    $('#word-list').hide();
 	}
     }).resize();
-    
+    $("button").click(function(){
+	$(this).addClass("pushed");
+	console.log("Button pressed");
+    });
+    $(".btn").mouseup(function(){
+	$(this).blur();
+    })
+
 });
