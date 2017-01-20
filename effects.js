@@ -25,8 +25,14 @@ $(document).ready(function() {
 	    //console.log("Resizing Object with width",$(this).width());
             $(this).height($(this).width());
 	});
-	if($('.row .col-xs-2').width() <= 95) $('.row .col-xs-2 button p').hide();
-	if($('.row .col-xs-2').width() > 95) $('.row .col-xs-2 button p').show();
+	if($('.row .col-xs-2').width() <= 95){
+	    $('.row .col-xs-2 button p').hide();
+	    $('#word-list').show();
+	}
+	if($('.row .col-xs-2').width() > 95){
+	    $('.row .col-xs-2 button p').show();
+	    $('#word-list').hide();
+	}
     }).resize();
     
 });
