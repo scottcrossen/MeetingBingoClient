@@ -39,7 +39,7 @@ $(document).ready(function() {
     }).resize(); // Perform resize.
     // Add button-click listener.
     $("button").click(function(){
-	$(this).addClass("pushed");
+	$(this).toggleClass("pushed");
 	console.log("Button pressed");
     });
     // Remove bootstrap focus.
