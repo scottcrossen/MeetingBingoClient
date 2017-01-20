@@ -1,6 +1,19 @@
-.pushed {
+/* This is what happens to the buttons when they are pressed. */
+.col-xs-2 .pushed {
     background-color: rgb(221,221,221);
 }
+
+/* If you don't like how the reset-button looks then change these styles */
+.row .col-xs-10 {
+    display: block;
+    text-align: center;
+}
+.row .col-xs-10 button {
+    width: 75%;
+    margin: 20px;
+}
+
+/* Do not take away from these following styles. You can add but do not take away. */
 .row {
     margin-top: 15px;
 }
@@ -14,12 +27,4 @@ button p {
 }
 ol {
     margin-bottom: 0;
-}
-.row .col-xs-10 {
-    display: block;
-    text-align: center;
-}
-.row .col-xs-10 button {
-    width:75%;
-    margin: 20px;
 }
