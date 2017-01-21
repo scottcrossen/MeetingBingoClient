@@ -37,8 +37,8 @@ $(document).ready(function() {
 	    $('#word-list').hide();
 	}
     }).resize(); // Perform resize.
-    // Add button-click listener.
-    $("button").click(function(){
+    // Add button-click listener for bingo board.
+    $(".col-xs-2 button").click(function(){
 	$(this).toggleClass("pushed");
 	console.log("Button pressed");
     });
