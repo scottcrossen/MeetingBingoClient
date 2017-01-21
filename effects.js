@@ -1,3 +1,9 @@
+var pushed_array=Array(25).fill(false);
+pushed_array[13]=true;
+function toggle_push(index){
+    pushed_array[index]=!pushed_array[index];
+}
+
 $(document).ready(function() {
 
     // The first few lines do the initialization whenever a fresh-load happens.
@@ -13,7 +19,7 @@ $(document).ready(function() {
 	if(i==12) list_element="<li value=\"13\">"+words[i]+"</li>";
 	var button_element="<div class=\"col-xs-2 ";
 	if((i >= 13? i+1 : i)%5==0) button_element+="col-xs-offset-1";
-	button_element+="\"><button type=\"button\" class=\"btn btn-default\">"+String(i+1)+"<p>"+words[i]+"</p></button></div>";
+	button_element+="\"><button type=\"button\" class=\"btn btn-default\" data-id=\""+String(i)+"\">"+String(i+1)+"<p>"+words[i]+"</p></button></div>";
 	if(i==12) button_element="<div class=\"col-xs-2\"><div style=\"position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);\">Free!</div></div>\n"+button_element;
 	$(list_element).appendTo("#word-list-"+String(Math.floor(i/12)));
 	$(button_element).appendTo("#word-button-"+String(Math.floor((i >= 13? i+1 : i)/5)));
@@ -42,7 +48,8 @@ $(document).ready(function() {
 	$(this).toggleClass("pushed");
 	console.log("Button pressed with content: ");
 	console.log("\ttext: "+$(this).text());
-	console.log("\tdata: "+$(this).data());
+	console.log("\tdata: "+$(this).data("id"));
+	toggle_push($(this).data("id"));
     });
     // Add button-click listener for bingo board.
     $(".col-xs-10 button").click(function(){
