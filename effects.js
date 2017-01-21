@@ -40,6 +40,13 @@ $(document).ready(function() {
     // Add button-click listener for bingo board.
     $(".col-xs-2 button").click(function(){
 	$(this).toggleClass("pushed");
+	console.log("Button pressed with content: ");
+	console.log("\ttext: "+$(this).text());
+	console.log("\tdata: "+$(this).data());
+    });
+    // Add button-click listener for bingo board.
+    $(".col-xs-10 button").click(function(){
+	$(this).toggleClass("pushed");
 	console.log("Button pressed");
     });
     // Remove bootstrap focus.
