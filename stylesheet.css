@@ -3,13 +3,22 @@
     background-color: rgb(221,221,221);
 }
 
-/* If you don't like how the reset-button looks then change these styles */
+/* If you don't like how the bingo-button looks then change these styles */
 .row .col-xs-10 {
     display: block;
     text-align: center;
 }
 .row .col-xs-10 button {
     width: 75%;
+    margin: 20px;
+}
+/* If you don't like how the reset-button looks then change these styles */
+.row .col-xs-8 {
+    display: block;
+    text-align: center;
+}
+.row .col-xs-8 button {
+    width: 50%;
     margin: 20px;
 }
 
