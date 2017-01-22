@@ -74,7 +74,7 @@ $(document).ready(function() {
     
     // Load Words into both possible places.
     console.log("Loading words:");
-    for(var i = 0; i < words.length; i++) {
+    for(var i = 0; i < 24; i++) {
 	console.log("\t"+words[i]);
 	create_button(i);
 	create_list_item(i);
