@@ -16,9 +16,13 @@ function test_bingo(){
     var found_bingo=false;
     function win(){
 	console.log("\tBingo correct.");
+	$("#board").hide();
+	$("#win").show();
     }
     function lose(){
 	console.log("\tBingo incorrect.");
+	$("#board").hide();
+	$("#lose").show();
     }
     // Test horizontal
     for(var i=0; i<=4; i++){
@@ -40,7 +44,7 @@ function test_bingo(){
 	else if (i==4) found_bingo=true;
     }
     for(var i=0; i<=4; i++){
-	if(!pushed_array[24-i*6]) break;
+	if(!pushed_array[4+i*4]) break;
 	else if (i==4) found_bingo=true;
     }
     found_bingo? win() : lose();
@@ -104,10 +108,17 @@ $(document).ready(function() {
 	toggle_push($(this).data("id"));
     });
     
-    // Add button-click listener for bingo board.
-    $(".col-xs-10 button").click(function(){
+    // Add button-click listener for bingo button.
+    $(".col-xs-10 button:not(#back-to-game)").click(function(){
 	console.log("Bingo button pressed");
 	test_bingo();
+    });
+    
+    // Add button-click listener for back-to-game button.
+    $("#back-to-game").click(function(){
+	console.log("Back-to-game button pressed");
+	$("#lose").hide();
+	$("#board").show();
     });
     
     // Remove bootstrap focus.
