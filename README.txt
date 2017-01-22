@@ -11,7 +11,7 @@ CONTRIBUTERS: Scott Crossen
               Christian Bateman
 
 SUMMARY:
-This is an expansion project for the BYU course titled 'CS 201R'. In brief: It's Bingo for Mormons! Simply view the index.html on a web browser and start checking off the boxes to try and getting a Bingo!
+This is an expansion project for the BYU course titled 'CS 201R'. In brief: It's Bingo for Mormons! Simply view the index.html on a web browser and start checking off the boxes to try and get a Bingo!
 
 CONTACT:
 Scott Leland Crossen	scottcrossen42@gmail.com	scottcrossen42.com
