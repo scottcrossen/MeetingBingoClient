@@ -15,7 +15,7 @@ var wordsJson = {
 	"Too much information in testimony",
 	"A pioneer story is told",
 	"Speaker references dismal dating life",
-	"Speaker references past date",
+	"Speaker references date he/she went on",
 	"\"Deep\" Doctrine is told",
 	"CS Lewis is quoted",
 	"Scripture is mis-cited",
@@ -23,6 +23,7 @@ var wordsJson = {
 	"Speaker cries",
 	"Two people get up at the same time",
 	"Speaker references roommate drama",
-	"Speaker references facebook"
+	"Speaker references facebook",
+	"Speaker says he/she is inadequate compared to spouse"
     ]
 }
