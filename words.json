@@ -94,5 +94,18 @@ var wordsJson = {
 	"Speaker talks about job",
 	"Speaker compares USA to another nation",
 	"Speaker refers to missionaries"
+	"Speaker has book of mormon name",   
+	"Speaker has bible name",
+	"Speaker skipped stairs on way to podium",
+	"4 sequential speakers of same gender",
+	"More than 3 speakers in que",
+	"Speaker mentions time span since last oration",
+	"Speaker new to ward in last month",
+	"Speaker announces they will be leaving ward",
+	"Speaker uses \"bingo\" in testimony",
+	"Speaker uses special foul mormon vocabulary, \"shoot, fudge, dang, Utah\"",
+	"Speaker stumbles during journey to or away from podium",
+	"Podium height is adjusted",
+	"Speaker bumps microphone while adjusting creating noise"
     ]
 }
