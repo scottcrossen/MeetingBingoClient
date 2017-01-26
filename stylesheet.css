@@ -57,3 +57,6 @@ body{
     top: 65px;
     left: 100px;
 }
+.panel {
+    background-color: white;
+}
