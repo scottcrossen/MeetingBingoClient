@@ -38,3 +38,22 @@ button p {
 ol {
     margin-bottom: 0;
 }
+
+/* Here's the CS that I've added */
+
+body{
+    background-color: #ededed;
+}
+
+#header{
+    background-image: linear-gradient(rgba(255,0,0,0), #ededed), url(banner.png);
+    width:100%;
+    text-align: center;
+    color: white;
+}
+
+#profile-pic{
+    position: absolute;
+    top: 65px;
+    left: 100px;
+}

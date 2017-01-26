@@ -103,9 +103,14 @@ var wordsJson = {
 	"Speaker new to ward in last month",
 	"Speaker announces they will be leaving ward",
 	"Speaker uses \"bingo\" in testimony",
-	"Speaker uses special foul mormon vocabulary, \"shoot, fudge, dang, Utah\"",
+	"Speaker uses foul mormon vocabulary: \"shoot, fudge, dang\"",
 	"Speaker stumbles during journey to or away from podium",
 	"Podium height is adjusted",
-	"Speaker bumps microphone while adjusting creating noise"
+	"Speaker bumps microphone while adjusting creating noise",
+	"Audience expresses ammusement (laughter or chuckles)",
+	"Bishopric mentiones specific speakers during closing remarks",
+	"More than 6 people left the meeting early",
+	"Meeting went 10 minutes or more overtime",
+	"Member of stake presidency in attendance"  
     ]
 }
