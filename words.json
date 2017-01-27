@@ -98,7 +98,7 @@ var wordsJson = {
 	"Speaker has bible name",
 	"Speaker skipped stairs on way to podium",
 	"4 sequential speakers of same gender",
-	"More than 3 speakers in que",
+	"More than 3 speakers in queue",
 	"Speaker mentions time span since last oration",
 	"Speaker new to ward in last month",
 	"Speaker announces they will be leaving ward",
