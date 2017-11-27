@@ -136,6 +136,21 @@ var wordsJson = {
 	"The mic makes an awful squacking noise",
 	"Lack of sleep/tiredness is mentioned",
 	"Transportation woes mentioned",
-	"Nursery calling is mentioned disparagingly"
+	"Nursery calling is mentioned disparagingly",
+	"Brother wearing sport jacket that is not a high priest",
+	"Stripes on speakers tie have stripes towards the right hip",
+	"Male speaker is wearing cowboy boots or sandals",
+	"Male speaker is wearing a tie bar clip",
+	"Speaker will leave on a mission before next testimony meeting",
+	"Speaker has returned since previous testimony meeting",
+	"There are fewer than 8 or more than 9 digits on the hymnal board",
+	"Speaker has a pronounced accent or dialect",
+	"Speaker speaks in tongues (any non-standard use of a foreign language)",
+	"Speaker looks at a personal electronic device while speaking",
+	"There is an empty pew",
+	"The overflow area is opened after the meeting begins",
+	"an extra sacrament tray needs to be blessed",
+	"A visitor bears a testimony",
+	"There are no sustainings or releases"
     ]
 }
